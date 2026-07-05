@@ -1,19 +1,18 @@
 import React from 'react'
+import Card from './components/card'
+import Navbar from './components/Navbar'
 
 const App = () => {
+  const user = 'bhumika'
+  const age = 25
   return (
     <>
-    <div id='parent'>
-      <h1 id='child1'>hello</h1>
-      <h2 id='child2'>hello</h2>
-    </div>
-    <div id="chacha">
-      <h1>hi</h1>
-    </div>
+      <div>
+        <Navbar></Navbar>
+        <Card />
+      </div>
     </>
   )
 }
 
 export default App
-
-
