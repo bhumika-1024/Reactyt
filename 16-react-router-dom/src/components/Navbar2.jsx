@@ -25,7 +25,7 @@ const Navbar2 = () => {
             </button>
             <button
                 onClick={() => {
-                    navigate(+1)
+                    navigate(+1)s
                 }}
                 className="bg-orange-800 hover:bg-orange-300 text-white px-3 py-1 text-sm rounded-md  transition">
                 Next
